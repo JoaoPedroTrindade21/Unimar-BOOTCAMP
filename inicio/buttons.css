@@ -1,0 +1,59 @@
+/* Estilo para botões gerais */
+.button {
+    border: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #0C3B62;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease; /* Transição suave */
+}
+
+.button:hover {
+    opacity: 0.8; /* Opacidade ao passar o mouse */
+}
+
+.button:active {
+    opacity: 0.6; /* Opacidade ao clicar */
+}
+
+/* Estilo específico para o botão com id 'button' */
+#button {
+    border: none;
+    width: 395px;
+    height: 45px;
+    border-radius: 5px;
+    background: #3EE7B1;
+    display: block;
+    margin: 30px auto 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease; /* Transição suave */
+}
+
+#button:hover {
+    opacity: 0.8; /* Opacidade ao passar o mouse */
+}
+
+#button:active {
+    opacity: 0.7; /* Opacidade ao clicar */
+}
+
+/* Margem padrão para botões com classe 'b' */
+.b {
+    margin: 10px;
+}
+
+.botao{
+    margin-bottom: 50px;
+}
+
+.botao-formulario{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+    color: #ffffff; 
+    text-decoration: none; 
+    scroll-behavior: smooth;
+}
+
+/* Estilos da seção do banner */
+.baner {
+    background: url(./assets/baner.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 500px; 
+}
+
+/* Estilos para o cabeçalho */
+header {
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 20px; 
+}
+
+/* Estilos para a navegação dentro do cabeçalho */
+header nav {
+    display: flex; 
+    align-items: center; 
+    height: 30px;
+    margin-top: 25px; 
+    gap: 25px; 
+}
+
+/* Estilo para o logo */
+.logo {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+/* Estilos para a primeira seção do conteúdo */
+.primeira-secao {
+    margin: 165px 0 0 80px; 
+}
+
+/* Estilos para o título da seção */
+.titulo-secao {
+    font-size: 40px; 
+    font-weight: 800; 
+}
+
+/* Estilos para o contêiner das seções */
+.conteudo-secoes {
+    display: flex; 
+}
+
+/* Estilos para o texto da seção */
+.texto-secao {
+    margin: 55px 0 0 120px; 
+    width: 65%; 
+}
+
+/* Estilos para o título do projeto */
+.titulo-projeto {
+    color: #0C3B62; 
+    font-size: 24px;
+    font-weight: 600; 
+    margin-bottom: 15px; 
+}
+
+/* Estilos para o parágrafo */
+.paragrafo {
+    color: #787878; 
+    font-size: 16px; 
+    font-weight: 500;
+    width: 500px;
+    margin-bottom: 25px; 
+    line-height: 24px; 
+}
+
+/* Estilos para a seção de informações */
+.informacoes-secao {
+    width: 35%; 
+    height: 600px; 
+    border-bottom-left-radius: 10px; 
+    background: linear-gradient(171deg, #011B34 53.26%, #084374 98.77%);
+    padding: 40px 0 0 40px; 
+}
+
+.logoUnimar{
+    width: 150px;
+}
+
+/* Estilos para o endereço dentro da seção de informações */
+.endereco {
+    margin: 25px 0 0 5px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+}
+
+/* Estilos para cada linha do endereço */
+.linha-endereco {
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: 500; 
+}
+
+/* Estilos para a imagem dentro da seção */
+.imagem-secao {
+    position: relative;
+    top: 29px; 
+}

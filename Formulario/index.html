@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../inicio/buttons.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="container">
+        <!-- Seção esquerda -->
+        <section class="secao-esquerda">
+            <img src="./assets/logo.png" alt="Logo" class="logo">
+            <h2 class="titulo-secao">Garanta <br> sua Vaga <br> no Bootcamp!</h2>
+            <p class="descricao-secao">Aprenda, Concorra a Prêmios e <br> Prepare-se para o Futuro da <br> Tecnologia!</p>
+            <p class="informacao-secao">"Na Unimar, Seu Futuro é Agora."</p>
+        </section>
+    
+        <!-- Seção direita (formulário) -->
+        <section class="secao-direita">
+            <h3 class="titulo-formulario">Complete o Formulário Abaixo</h3>
+    
+            <form action="#" method="post" class="formulario">
+                <div class="grupo-formulario">
+                    <label class="rotulo-formulario" for="campo1">
+                        <p class="titulo-campo">Nome completo</p>
+                        <input type="text" id="campo1" name="nome" class="input-formulario" required placeholder="Nome completo">
+                    </label>
+                </div>
+    
+                <div class="grupo-formulario">
+                    <label class="rotulo-formulario" for="campo2">
+                        <p class="titulo-campo">E-mail</p>
+                        <input type="email" id="campo2" name="email" class="input-formulario" required placeholder="E-mail">
+                    </label>
+                </div>
+    
+                <div class="grupo-formulario">
+                    <label class="rotulo-formulario" for="campo3">
+                        <p class="titulo-campo">Confirmar e-mail</p>
+                        <input type="email" id="campo3" name="telefone" class="input-formulario" required placeholder="Confirmar e-mail">
+                    </label>
+                </div>
+    
+                <div class="grupo-formulario">
+                    <label class="rotulo-formulario" for="cpf">
+                        <p class="titulo-campo">CPF</p>
+                        <input type="text" id="cpf" class="input-formulario input-cpf" required placeholder="CPF" maxlength="14">
+                    </label>
+                </div>
+    
+                <div class="grupo-formulario">
+                    <label class="rotulo-formulario" for="campo5">
+                        <p class="titulo-campo">Telefone celular</p>
+                        <input type="tel" maxlength="15" onkeyup="handlePhone(event)" class="input-formulario" required placeholder="Telefone celular">
+                    </label>
+                </div>
+    
+                <div class="grupo-formulario">
+                    <label class="rotulo-formulario" for="campo6">
+                        <p class="titulo-campo">Data de nascimento</p>
+                        <input type="text" id="dataNascimento" name="estado" class="input-formulario" required placeholder="dd/mm/aaaa" maxlength="10">
+                    </label>
+                </div>
+
+            </form>
+            <a href="../index.html">
+                <button class="botao-formulario button" onclick="mostrarAviso()">Enviar</button>
+            </a>
+        </section>
+    </section>
+    
+    </body>
+    <script src="./javaScript.js"></script>
+</html>
